@@ -1,0 +1,51 @@
+.intro{
+    background-color:white;
+    display: flex;
+    align-items: center;
+}
+.introright{
+    flex:0.5;
+    background-color:white;
+    
+}
+.introleft {
+    flex: 0.5;
+    background-color:white;
+    overflow: hidden;
+
+}
+.introright > h1{
+    font-size: 60px;
+    
+}
+.typical{
+    margin-top: 12px;
+}
+.introright > h2{
+    font-size: 30px;
+
+}
+.typical > h3{
+    font-size: 40px;
+
+}
+.containerimg{
+    width: 500px;
+    height: 500px;
+    background-color: crimson;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    overflow: hidden;
+    box-shadow: 3px 4px 13px 4pxgrey;
+}
+img{
+    height: 500px;
+    
+    width: 500px;
+}
+.textref{
+    font-size: 40px;
+    color: crimson;
+}

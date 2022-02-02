@@ -1,0 +1,37 @@
+.menu{
+    width: 300px;
+    height: 100vh;
+    background-color:darkblue;
+    position: fixed;
+    top: 0;
+    z-index:2;
+    right: -300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    transition: all 1s ease;
+    
+}
+
+.menu.active {
+    right:0;
+}
+
+ul,li,a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 34px;
+    font-weight: 300;
+    margin-bottom: 15px;
+
+}
+ul{
+    width:60%;
+}
+a:hover{
+    font-weight: 400;
+}
+
+
